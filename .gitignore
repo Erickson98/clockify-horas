@@ -1,0 +1,6 @@
+node_modules/
+.env
+sesion.json
+*.local.csv
+*-clockify.png
+horas/

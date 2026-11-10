@@ -1,0 +1,28 @@
+{
+  "name": "clockify-horas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Registra en Clockify una lista de tickets con sus horas",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "login": "node src/cli.ts login",
+    "login-navegador": "node src/cli.ts login-navegador",
+    "preferencias": "node src/cli.ts preferencias",
+    "registrar": "node src/cli.ts registrar",
+    "proyectos": "node src/cli.ts proyectos",
+    "logout": "node src/cli.ts logout",
+    "ayuda": "node src/cli.ts ayuda",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.0"
+  }
+}
